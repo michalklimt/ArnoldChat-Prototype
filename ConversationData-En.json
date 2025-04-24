@@ -1,0 +1,213 @@
+[
+  {
+    "id": 1,
+    "type": "Tell",
+    "text": "Hi! It's Arnold. I'd like to discuss feedback on your work today.",
+    "next": 2
+  },
+  {
+    "id": 2,
+    "type": "Tell",
+    "text": "Let's get started.",
+    "next": 3
+  },
+  {
+    "id": 3,
+    "type": "Multiple Likert scale",
+    "questions":[
+      "I feel that I am allowed to make mistakes in business.",
+      "We have defined processes and work rules within the company.",
+      "Employees are free to take regular meal breaks.",
+      "This company doesn’t mean much to me.",
+      "I believe that the spirit of collegiality is nurtured in the company."
+    ],
+    "options": [
+    "I strongly disagree",
+    "I mostly disagree",
+    "I mostly agree",
+    "I strongly agree"
+    ],
+    "next": 4
+  },
+  {
+    "id": 4,
+    "type": "Single choice",
+    "text": "How much feedback on your work do you receive from your supervisor?",
+    "options": {
+      "Too much": 11,
+      "About the right amount": 11,
+      "Too little": 5,
+      "None at all": 5,
+      "I don't know yet, I have a new supervisor": 5
+    }
+  },
+  {
+    "id": 5,
+    "type": "Tell",
+    "text": "Thank you, I understand and I'd like to learn more.",
+    "next": 6
+  },
+  {
+    "id": 6,
+    "type": "Multiple choice",
+    "text": "Why do you think that is?",
+    "options": {
+      "They don't know much about what I do": 10,
+      "They have no time": 10,
+      "I don't have much time": 10,
+      "It's not important to them": 10,
+      "I don't need any feedback": 10,
+      "Another reason": 7
+    }
+  },
+  {
+    "id": 7,
+    "type": "Open question",
+    "text": "What other reason do you have in mind?",
+    "next": 10
+  },
+  {
+    "id": 8,
+    "type": "Multiple choice",
+    "text": "Why do you think that is?",
+    "options": {
+      "They don't know much about what I do": 10,
+      "They have no time": 10,
+      "I don't have much time": 10,
+      "It's not important to them": 10,
+      "I don't need any feedback": 10,
+      "Another reason": 9
+    }
+  },
+  {
+    "id": 9,
+    "type": "Open question",
+    "text": "What other reason do you have in mind?",
+    "next": 10
+  },
+  {
+    "id": 10,
+    "type": "Tell",
+    "text": "Thank you. And if they do comment on your work...",
+    "next": 12
+  },
+  {
+    "id": 11,
+    "type": "Tell",
+    "text": "Thank you.",
+    "next": 13
+  },
+  {
+    "id": 12,
+    "type": "Single choice",
+    "text": "Is the feedback you get from your supervisor useful to you?",
+    "options": {
+      "Mostly yes": 14,
+      "It depends": 14,
+      "Mostly no": 14
+    }
+  },
+  {
+    "id": 13,
+    "type": "Tell",
+    "text": "That'll speed things up today. Let's move on.",
+    "next": 17
+  },
+  {
+    "id": 14,
+    "type": "Tell",
+    "text": "I'm curious whether you can see room for improvement in this area...",
+    "next": 15
+  },
+  {
+    "id": 15,
+    "type": "Open question",
+    "text": "How could the feedback be improved?",
+    "next": 16
+  },
+  {
+    "id": 16,
+    "type": "Open question",
+    "text": "What do you appreciate about your supervisor's feedback?",
+    "next": 17
+  },
+  {
+    "id": 17,
+    "type": "Single choice",
+    "text": "Do you feel that the feedback you get from your supervisor is fair?",
+    "options": {
+      "Always": 18,
+      "Mostly yes": 18,
+      "It depends": 19,
+      "Mostly not": 19,
+      "Never": 19
+    }
+  },
+  {
+    "id": 18,
+    "type": "Tell",
+    "text": "Thank you, it's been quick today! Halfway there.",
+    "next": 20
+  },
+  {
+    "id": 19,
+    "type": "Tell",
+    "text": "I'm sorry to hear that.",
+    "next": 20
+  },
+  {
+    "id": 20,
+    "type": "Single choice",
+    "text": "When receiving negative feedback... do you feel that their criticism is constructive?",
+    "options": {
+      "Always/mostly yes": 21,
+      "It depends": 22,
+      "Mostly not": 22,
+      "I don't get negative feedback": 21
+    }
+  },
+  {
+    "id": 21,
+    "type": "Single choice",
+    "text": "Would you appreciate getting feedback from them?",
+    "options": {
+      "Yes": 24,
+      "No": 25
+    }
+  },
+  {
+    "id": 22,
+    "type": "Open question",
+    "text": "What does the negative feedback look like when it's not constructive?",
+    "next": 23
+  },
+  {
+    "id": 23,
+    "type": "Tell",
+    "text": "Thank you! We're approaching the home straight.",
+    "next": 26
+  },
+  {
+    "id": 24,
+    "type": "Open question",
+    "text": "What form should the feedback from your supervisor take to be useful to you?",
+    "next": 26
+  },
+  {
+    "id": 25,
+    "type": "Tell",
+    "text": "Noted.",
+    "next": 26
+  },
+  {
+    "id": 26,
+    "type": "Open question",
+    "text": "Is there anyone else in your organization from whom you'd appreciate feedback?",
+    "next": 27
+  },
+  {
+    "id": 27,
+    "type": "Tell",
+    "text": "And we're done. Can you give me your feedback on this conversation? :)"
+  }
+]
